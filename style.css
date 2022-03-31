@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ header .header {
+     background-color: rgb(127, 127, 196);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }  
+
+
+
+h1 {
+    
+    text-align: center;
+    
+}
+
+table {
+    position: relative;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    
+}
+.content {
+    display: flex; margin: auto;
+    
+    
+   
+}
+
+thead tr th {
+    position: sticky;
+    top: 0;
+    background: black;
+}
+
+.rTable {
+    width: 100%; text-align: center;
+}
+
+.rTable thead  {
+    background: black; font-weight: bold; color: #fff;
+}
+
+.rTable tbody tr:nth-child(even){
+    background: #ccc;
+}
+
+td  {
+    text-align: left;
+    font-size: 14px;
+    height: 25px;
+    
+}
+
+input  {
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+tr td.miniatura {
+    text-align: center;
+    cursor: pointer;
+}
+}
+
+.menu  {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+    content: (width:100%);
+    .rTable tbody tr td:nth-child(1) (width: 10%;)
+    .rTable tbody tr td:nth-child(2) (width: 10%;)
+    .rTable tbody tr td:nth-child(3) (width: 10%;)
+    .rTable tbody tr td:nth-child(4) (width: 10%;)
+    .rTable tbody tr td:nth-child(5) (width: 10%;)
+}
+
+
+    
